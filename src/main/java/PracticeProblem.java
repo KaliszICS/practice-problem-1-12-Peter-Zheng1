@@ -51,7 +51,7 @@ public class PracticeProblem {
 		//Write question 4 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
-		Double num = input.nextDouble();
+		double num = input.nextDouble();
 		num = (num*12);
 		System.out.println(Math.floor(num));
 	}
